@@ -968,12 +968,10 @@ header .logo a {
 	margin: 0;
 	padding: 0;
 	border: none;
-	font: 0/0 a;
-	text-shadow: none;
-	color: transparent;
+	color: white;
+	font-family: "poppins-medium", sans-serif;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
 }
 
@@ -1355,10 +1353,10 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 10rem;
-	width: 10rem;
-	border-radius: 50%;
-	margin: .8rem 0 0 0;
+	height: 30rem;
+	width: 30rem;
+	margin: .8rem 5rem 0 0;
+	object-fit: cover;
 	float: left;
 }
 .intro-info .lead {
